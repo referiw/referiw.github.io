@@ -1,567 +1,341 @@
 
 
+
 <!DOCTYPE html>
-<html lang="zh-CN">
-
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>referi的 世界</title>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="google" content="notranslate" />
-
-  
-  
-  
-  <meta name="author" content="referi"> 
-
-  
-    <link rel="icon" href="/images/icons/16.jpg" type="image/png" sizes="16x16">
-  
-  
-    <link rel="icon" href="/images/icons/32.jpg" type="image/png" sizes="32x32">
-  
-  
-    <link rel="apple-touch-icon" href="/images/icons/180.jpg" sizes="180x180">
-  
-  
-    <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
-  
-  
-    <meta rel="msapplication-TileImage" content="/images/icons/144.jpg">
-    <meta rel="msapplication-TileColor" content="#000000">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>   white.</title>
+  <meta name="description" content="A minimalist theme for hexo.">
+  <!-- 标签页图标 -->
   
 
+  <!-- 图标库 -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- 动画库 -->
   
-<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/css/animate.css"/>
+  
+  <!-- css文件 -->
+  
+<link rel="stylesheet" href="/css/white.css">
 
-
-  
-  
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1445822_h1619vhl1nr.css">
-
-  
-
-  
-  
-  
-<link rel="stylesheet" href="https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css">
-
-  
-
-  
-  
-  
-<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css">
-
-  
-
-  <script>
-    var CONFIG = window.CONFIG || {};
-    var ZHAOO = window.ZHAOO || {};
-    CONFIG = {
-      isHome: true,
-      fancybox: true,
-      pjax: false,
-      lazyload: {
-        enable: true,
-        loadingImage: '',
-      },
-      donate: {
-        enable: false,
-        alipay: 'https://pic.izhaoo.com/alipay.jpg',
-        wechat: 'https://pic.izhaoo.com/wechat.jpg'
-      },
-      motto: {
-        api: '',
-        default: '就算身隔两地 我们看到的仍是同一片天空'
-      },
-      galleries: {
-        enable: true
-      },
-      fab: {
-        enable: true,
-        alwaysShow: false
-      },
-      carrier: {
-        enable: true
-      },
-      daovoice: {
-        enable: true
-      }
-    }
-  </script>
-
-  
-
+  <!-- 代码高亮 -->
   
 <meta name="generator" content="Hexo 5.2.0"></head>
-<body class="lock-screen">
-  <div class="loading"></div>
-  
 
 
-  <nav class="menu">
-  <div class="menu-wrap">
-    <div class="menu-close">
-      <i class="iconfont iconbaseline-close-px"></i>
+<body>
+
+<div class="menu-outer">
+    <div class="menu-inner">
+      <div class="menu-site-name  animate__animated  animate__fadeInUp">
+        <a href="/">
+          white.
+        </a>
+        
+      </div>
+      <div class="menu-group">
+        <ul class="menu-ul">
+        
+          <a href="/" class="nav-link">
+            <li class="menu-li  animate__animated  animate__fadeInUp">
+              HOME
+            </li>
+          </a>
+        
+          <a href="/archives" class="nav-link">
+            <li class="menu-li  animate__animated  animate__fadeInUp">
+              BLOG
+            </li>
+          </a>
+        
+        
+        
+          <li class="menu-li animate__animated  animate__fadeInUp" id="mobile-menu">
+            <i class="ri-menu-line"></i>
+          </li>
+        
+        </ul>
+
+      </div>
+
     </div>
-    <ul class="menu-content">
-      
-      
-      
-      
-      <li class="menu-item"><a href="/ " class="underline"> 首页</a></li>
-      
-      
-      
-      
-      <li class="menu-item"><a href="/galleries " class="underline"> 美图</a></li>
-      
-      
-      
-      
-      <li class="menu-item"><a href="/archives " class="underline"> 时间</a></li>
-      
-      
-      
-      
-      <li class="menu-item"><a href="/tags " class="underline"> 标签</a></li>
-      
-      
-      
-      
-      <li class="menu-item"><a href="/categories " class="underline"> 分类</a></li>
-      
-      
-      
-      
-      <li class="menu-item"><a href="/about " class="underline"> 关于</a></li>
-      
+</div>
+<div id="mobile-main" class="animate__animated  animate__fadeIn">
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-site-name animate__animated  animate__fadeInUp">
+      <a href="/">
+        white.
+      </a>
+    </div>
+    <div class="mobile-menu-group" id="mobile-close">
+      <i class="ri-close-line"></i>
+    </div>
+
+  </div>
+
+  <div class="mobile-menu-div">
+  
+    <a href="/" class="mobile-nav-link">
+      <div class="mobile-menu-child animate__animated  animate__fadeInUp">
+        <span>HOME</span>
+      </div>
+    </a>
+  
+    <a href="/archives" class="mobile-nav-link">
+      <div class="mobile-menu-child animate__animated  animate__fadeInUp">
+        <span>BLOG</span>
+      </div>
+    </a>
+  
+  
+  </div>
+
+
+</div>
+
+<div class="body-outer">
+  <div class="body-inner">
+    
+
+    
+<section class="img-show-outer">
+    <section class="img-show-inner">
+          
+          
+          <div class="img-show-post">
+            <div class="img-show-post-cover">
+              <span class="lazyload-img-span">
+              <a  href="/2020/12/18/%E5%B8%88%E7%94%9F%E6%81%8B/">
+              
+                
+                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/01.jpg" class="img-show-post-cover-class">
+              
+              </a>
+              </span>
+            </div>
+            <div class="img-show-post-intro">
+             <a  href="/2020/12/18/%E5%B8%88%E7%94%9F%E6%81%8B/">
+            <div class="img-show-post-title animate__animated  animate__fadeInUp">夏天与秋天的故事</div>
+            </a>
+            <div class="img-show-post-date animate__animated  animate__fadeInUp">Dec 18 2020 </div>
+            </div>
+          </div>
+          
+         
+          <div class="img-show-post">
+            <div class="img-show-post-cover">
+              <span class="lazyload-img-span">
+              <a  href="/2020/12/14/%E5%90%8E%E5%90%AF%E7%A4%BA%E5%BD%95%E7%9A%84%E6%95%85%E4%BA%8B/">
+              
+                
+                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/02.jpg" class="img-show-post-cover-class">
+              
+              </a>
+              </span>
+            </div>
+            <div class="img-show-post-intro">
+             <a  href="/2020/12/14/%E5%90%8E%E5%90%AF%E7%A4%BA%E5%BD%95%E7%9A%84%E6%95%85%E4%BA%8B/">
+            <div class="img-show-post-title animate__animated  animate__fadeInUp">后启示录的故事</div>
+            </a>
+            <div class="img-show-post-date animate__animated  animate__fadeInUp">Dec 14 2020 </div>
+            </div>
+          </div>
+          
+         
+          <div class="img-show-post">
+            <div class="img-show-post-cover">
+              <span class="lazyload-img-span">
+              <a  href="/2020/12/14/%E5%81%9C%E6%BB%9E/">
+              
+                
+                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/03.jpg" class="img-show-post-cover-class">
+              
+              </a>
+              </span>
+            </div>
+            <div class="img-show-post-intro">
+             <a  href="/2020/12/14/%E5%81%9C%E6%BB%9E/">
+            <div class="img-show-post-title animate__animated  animate__fadeInUp">凝固的时间</div>
+            </a>
+            <div class="img-show-post-date animate__animated  animate__fadeInUp">Dec 14 2020 </div>
+            </div>
+          </div>
+          
+         
+          <div class="img-show-post">
+            <div class="img-show-post-cover">
+              <span class="lazyload-img-span">
+              <a  href="/2020/11/23/%E5%85%B3%E4%BA%8E%E8%BF%91%E6%97%A5%E8%BD%BB%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%E7%9A%84%E5%8F%8D%E6%80%9D/">
+              
+                
+                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/04.jpg" class="img-show-post-cover-class">
+              
+              </a>
+              </span>
+            </div>
+            <div class="img-show-post-intro">
+             <a  href="/2020/11/23/%E5%85%B3%E4%BA%8E%E8%BF%91%E6%97%A5%E8%BD%BB%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%E7%9A%84%E5%8F%8D%E6%80%9D/">
+            <div class="img-show-post-title animate__animated  animate__fadeInUp">关于近日轻小说阅读的反思</div>
+            </a>
+            <div class="img-show-post-date animate__animated  animate__fadeInUp">Nov 23 2020 </div>
+            </div>
+          </div>
+          
+         
+          <div class="img-show-post">
+            <div class="img-show-post-cover">
+              <span class="lazyload-img-span">
+              <a  href="/2020/11/22/%E5%A4%A7%E5%8D%83%E4%B8%96%E7%95%8C/">
+              
+                
+                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/05.jpg" class="img-show-post-cover-class">
+              
+              </a>
+              </span>
+            </div>
+            <div class="img-show-post-intro">
+             <a  href="/2020/11/22/%E5%A4%A7%E5%8D%83%E4%B8%96%E7%95%8C/">
+            <div class="img-show-post-title animate__animated  animate__fadeInUp">大千世界</div>
+            </a>
+            <div class="img-show-post-date animate__animated  animate__fadeInUp">Nov 22 2020 </div>
+            </div>
+          </div>
+          
+         
+          <div class="img-show-post">
+            <div class="img-show-post-cover">
+              <span class="lazyload-img-span">
+              <a  href="/2020/11/05/last%20run/">
+              
+                
+                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/06.jpg" class="img-show-post-cover-class">
+              
+              </a>
+              </span>
+            </div>
+            <div class="img-show-post-intro">
+             <a  href="/2020/11/05/last%20run/">
+            <div class="img-show-post-title animate__animated  animate__fadeInUp">last run</div>
+            </a>
+            <div class="img-show-post-date animate__animated  animate__fadeInUp">Nov 05 2020 </div>
+            </div>
+          </div>
+          
+         
+          <div class="img-show-post">
+            <div class="img-show-post-cover">
+              <span class="lazyload-img-span">
+              <a  href="/2020/11/04/%E6%B2%A1%E6%83%B3%E5%A5%BD/">
+              
+                
+                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/07.jpg" class="img-show-post-cover-class">
+              
+              </a>
+              </span>
+            </div>
+            <div class="img-show-post-intro">
+             <a  href="/2020/11/04/%E6%B2%A1%E6%83%B3%E5%A5%BD/">
+            <div class="img-show-post-title animate__animated  animate__fadeInUp">没想好</div>
+            </a>
+            <div class="img-show-post-date animate__animated  animate__fadeInUp">Nov 04 2020 </div>
+            </div>
+          </div>
+          
+         
+          <div class="img-show-post">
+            <div class="img-show-post-cover">
+              <span class="lazyload-img-span">
+              <a  href="/2020/10/29/%E6%89%BE%E4%B8%8D%E5%88%B0%E4%BA%BA/">
+              
+                
+                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/08.jpg" class="img-show-post-cover-class">
+              
+              </a>
+              </span>
+            </div>
+            <div class="img-show-post-intro">
+             <a  href="/2020/10/29/%E6%89%BE%E4%B8%8D%E5%88%B0%E4%BA%BA/">
+            <div class="img-show-post-title animate__animated  animate__fadeInUp"></div>
+            </a>
+            <div class="img-show-post-date animate__animated  animate__fadeInUp">Oct 29 2020 </div>
+            </div>
+          </div>
+          
+         
+          <div class="img-show-post">
+            <div class="img-show-post-cover">
+              <span class="lazyload-img-span">
+              <a  href="/2020/10/22/%E5%B9%B4%E5%BA%A6%E7%9B%AE%E6%A0%87/">
+              
+                
+                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/09.jpg" class="img-show-post-cover-class">
+              
+              </a>
+              </span>
+            </div>
+            <div class="img-show-post-intro">
+             <a  href="/2020/10/22/%E5%B9%B4%E5%BA%A6%E7%9B%AE%E6%A0%87/">
+            <div class="img-show-post-title animate__animated  animate__fadeInUp">2020年度目标</div>
+            </a>
+            <div class="img-show-post-date animate__animated  animate__fadeInUp">Oct 22 2020 </div>
+            </div>
+          </div>
+          
+         
+    </section>
+    
+      <nav class="paginator animate__animated  animate__fadeInUp">
+        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">next</a>
+      </nav>
+    
+</section>
+
+
+
+  </div>
+</div>
+
+
+
+<!-- 如果是home模式的话，不在首页就显示footer，如果不是home模式的话 所有都显示footer -->
+
+  <div class="footer-outer animate__animated  animate__fadeInUp">
+    <div class="footer-inner">
+    <div class="footer-text">
+    <p>Power by <a target="_blank" rel="noopener" href="http://hexo.io/">Hexo</a> Theme by <a target="_blank" rel="noopener" href="https://github.com/FuShaoLei/hexo-theme-white">White</a></p>
+
+    </div>
+    <div class="footer-contact">
+    <ul class="footer-ul">
+        
+        <li class="footer-li">
+            <a href="https://github.com/FuShaoLei/hexo-theme-white" target="_blank">
+                <i class="ri-github-line"></i>
+            </a>
+        </li>
+        
+        <li class="footer-li">
+            <a href="mailto:1563250958@qq.com" target="_blank">
+                <i class="ri-mail-line"></i>
+            </a>
+        </li>
+        
     </ul>
-    <div class="menu-copyright"><p>Powered by zhaoo<a target="_blank" href="https://space.bilibili.com/10819593">referi</a></div>
-  </div>
-</nav>
-  <main id="main">
-  
-    <div class="preview">
-  <nav class="navbar j-navbar-menu">
-    <i class="iconfont iconmenu"></i>
-  </nav>
-  <div class="preview-image">
-    <h2 class="preview-motto" id="motto"></h2>
-    <!-- <span class="preview-cursor">|</span> -->
-    
-    <div class="preview-overlay">
-      <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-        <defs>
-          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-        </defs>
-        <g class="preview-parallax">
-          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-        </g>
-      </svg>
     </div>
-    
-  </div>
-  <div class="preview-scroll">
-    <a href="#container" class="smooth-scroll"><i class="iconfont iconMouse"></i></a>
-  </div>
-</div>
-  
-  <div class="container" id="container">
-    <section class="row post">
-  
-  <div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2020/12/18/%E5%B8%88%E7%94%9F%E6%81%8B/" class="post-image">
-      <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <h3 class="post-title"><a href="/2020/12/18/%E5%B8%88%E7%94%9F%E6%81%8B/">夏天与秋天的故事</a></h3>
-      
-      
-      
-      <div class="post-excerpt">
-        <p class="substr-3">夏天，很热，窗外不曾有一只鸟飞过，教室里一片寂静，仿佛没有活物一般。
-昨天也是这样，明天应该也会是这样。
-那这是昨天，还是明天？生活没有一丝变化。
-用符合我身份的话来说那就是，很无聊。无论是高中...</p>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>December 18, 2020</span
-          class="post-info-item">
-        
-        <span class="post-info-item"><i class="iconfont iconfont-size"></i>3894</span>
-      </div>
     </div>
-  </div>
 </div>
-  
-  <div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2020/12/14/%E5%90%8E%E5%90%AF%E7%A4%BA%E5%BD%95%E7%9A%84%E6%95%85%E4%BA%8B/" class="post-image">
-      <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <h3 class="post-title"><a href="/2020/12/14/%E5%90%8E%E5%90%AF%E7%A4%BA%E5%BD%95%E7%9A%84%E6%95%85%E4%BA%8B/">后启示录的故事</a></h3>
-      
-      
-      
-      <div class="post-excerpt">
-        <p class="substr-3"></p>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>December 14, 2020</span
-          class="post-info-item">
-        
-        <span class="post-info-item"><i class="iconfont iconfont-size"></i>0</span>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2020/12/14/%E5%81%9C%E6%BB%9E/" class="post-image">
-      <img   class="lazyload" data-original="/images/%E5%87%9D%E5%9B%BA%E7%9A%84%E6%97%B6%E9%97%B4.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <h3 class="post-title"><a href="/2020/12/14/%E5%81%9C%E6%BB%9E/">凝固的时间</a></h3>
-      
-      
-      
-      <div class="post-excerpt">
-        <p class="substr-3"> 如同坏掉的钟表，他生活的指针停滞不前。
-与另一个人的约定被当作儿戏遗忘。他却依然坚信那个人，相信从对方口中道出的未来，坚信不疑。
-以至于无法接受现实，那已到达的未来。
-如今他仍在相信，仍在等待...</p>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>December 14, 2020</span
-          class="post-info-item">
-        
-        <span class="post-info-item"><i class="iconfont iconfont-size"></i>213</span>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2020/11/23/%E5%85%B3%E4%BA%8E%E8%BF%91%E6%97%A5%E8%BD%BB%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%E7%9A%84%E5%8F%8D%E6%80%9D/" class="post-image">
-      <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <h3 class="post-title"><a href="/2020/11/23/%E5%85%B3%E4%BA%8E%E8%BF%91%E6%97%A5%E8%BD%BB%E5%B0%8F%E8%AF%B4%E9%98%85%E8%AF%BB%E7%9A%84%E5%8F%8D%E6%80%9D/">关于近日轻小说阅读的反思</a></h3>
-      
-      
-      
-      <div class="post-excerpt">
-        <p class="substr-3">快，太快了，有种催人跑的感觉。
-最近一直在读轻小说，读的越来越快，却是读的越来越浅。虽然读完就忘本就是轻小说的宿命，但我本身的阅读行为也出现了很大的问题。
-太快了，几乎是几个小时就把一本小说翻完...</p>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>November 23, 2020</span
-          class="post-info-item">
-        
-        <span class="post-info-item"><i class="iconfont iconfont-size"></i>325</span>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2020/11/22/%E5%A4%A7%E5%8D%83%E4%B8%96%E7%95%8C/" class="post-image">
-      <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <h3 class="post-title"><a href="/2020/11/22/%E5%A4%A7%E5%8D%83%E4%B8%96%E7%95%8C/">大千世界</a></h3>
-      
-      
-      
-      <div class="post-excerpt">
-        <p class="substr-3">要是真的有大千世界就好了。今天吃饭的时候突然这样想着？我生活在盆地最中心，城镇里一片平地，偶有上下坡我便觉得难受。如今学校建在山上，此前我从未想过大楼的入口竟可以放在第三层。如大千世界中的小千世...</p>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>November 22, 2020</span
-          class="post-info-item">
-        
-        <span class="post-info-item"><i class="iconfont iconfont-size"></i>355</span>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2020/11/05/last%20run/" class="post-image">
-      <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <h3 class="post-title"><a href="/2020/11/05/last%20run/">last run</a></h3>
-      
-      
-      
-      <div class="post-excerpt">
-        <p class="substr-3">last run
-越过一同见证的梦之彼端
-愿能与你相连 延续这爱的话语
-run last 
-铁轨已经延伸
-知识传递如薪火不绝
-重获新生
-前路依旧
-</p>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>November 05, 2020</span
-          class="post-info-item">
-        
-        <span class="post-info-item"><i class="iconfont iconfont-size"></i>73</span>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2020/11/04/%E6%B2%A1%E6%83%B3%E5%A5%BD/" class="post-image">
-      <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <h3 class="post-title"><a href="/2020/11/04/%E6%B2%A1%E6%83%B3%E5%A5%BD/">没想好</a></h3>
-      
-      
-      
-      <div class="post-excerpt">
-        <p class="substr-3">人这东西，一旦钻在美里不出来，势必不知不觉撞进世间最为黑暗的思路。
-​                                                      &emsp;&e...</p>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>November 04, 2020</span
-          class="post-info-item">
-        
-        <span class="post-info-item"><i class="iconfont iconfont-size"></i>458</span>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2020/10/29/%E6%89%BE%E4%B8%8D%E5%88%B0%E4%BA%BA/" class="post-image">
-      <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <h3 class="post-title"><a href="/2020/10/29/%E6%89%BE%E4%B8%8D%E5%88%B0%E4%BA%BA/"></a></h3>
-      
-      
-      
-      <div class="post-excerpt">
-        <p class="substr-3">庄子 话痨 耿直 博学 小聪明
-年轻的大学生A 处于信息时代的年轻人
-年轻的大学生B 正被生活追赶的年轻人
-旁白起：“庄周轻生死，旷达古无比。何为数论量，死生反大事？乃知无言者，莫得窥其际。身没...</p>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>October 29, 2020</span
-          class="post-info-item">
-        
-        <span class="post-info-item"><i class="iconfont iconfont-size"></i>1850</span>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2020/10/22/%E5%B9%B4%E5%BA%A6%E7%9B%AE%E6%A0%87/" class="post-image">
-      <img   class="lazyload" data-original="/images/theme/post-image.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <h3 class="post-title"><a href="/2020/10/22/%E5%B9%B4%E5%BA%A6%E7%9B%AE%E6%A0%87/">2020年度目标</a></h3>
-      
-      
-      
-      <div class="post-excerpt">
-        <p class="substr-3">10月下旬才开始定目标，会不会太晚了呀。
-身体方面1.体重从130斤返回110斤
-高考后暴饮暴食的陋习并没有解决，所以这两个月还是要努力节食。现在的体重给我带来明显的不适感。
-2.顺利度过体检
-...</p>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>October 22, 2020</span
-          class="post-info-item">
-        
-        <span class="post-info-item"><i class="iconfont iconfont-size"></i>361</span>
-      </div>
-    </div>
-  </div>
-</div>
-  
-</section>
-    <section class="paginator">
-  
-  <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">&gt;</a>
-  
-</section>
-  </div>
-</main>
-  <footer class="footer">
-  <div class="footer-social">
-    
-    
-    
-    
-    
-    <a href="tencent://message/?Menu=yes&uin=765511198 " target="_blank" onMouseOver="this.style.color= '#12B7F5'"
-      onMouseOut="this.style.color='#33333D'">
-      <i class="iconfont footer-social-item  iconQQ "></i>
-    </a>
-    
-    
-    
-    
-    
-    <a href="https://github.com/referiw " target="_blank" onMouseOver="this.style.color= '#24292E'"
-      onMouseOut="this.style.color='#33333D'">
-      <i class="iconfont footer-social-item  icongithub-fill "></i>
-    </a>
-    
-    
-    
-    
-    
-    <a href="765511198@qq.com " target="_blank" onMouseOver="this.style.color='#FFBE5B'"
-      onMouseOut="this.style.color='#33333D'">
-      <i class="iconfont footer-social-item  iconmail"></i>
-    </a>
-    
-  </div>
-  <div class="footer-copyright"><p>Powered by zhaoo<a target="_blank" href="https://space.bilibili.com/10819593">referi</a></div>
-</footer>
-  
-      <div class="fab fab-plus">
-    <i class="iconfont iconplus"></i>
-  </div>
-  
-  <div class="fab fab-daovoice">
-    <i class="iconfont iconcomment"></i>
-  </div>
-  
-  <div class="fab fab-up">
-    <i class="iconfont iconcaret-up"></i>
-  </div>
-  
+
+
+
+
+
+
+<script src="/js/white.js"></script>
+
+
+
 </body>
-
-
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-
-
-
-
-
-
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-
-
-
-
-
-
-<script src="https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-
-
-
-
-
-
-<script src="/js/utils.js"></script>
-<script src="/js/modules.js"></script>
-<script src="/js/zui.js"></script>
-<script src="/js/script.js"></script>
-
-
-
-
-
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i["DaoVoiceObject"] = r;
-    i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    a.charset = "utf-8";
-    m.parentNode.insertBefore(a, m)
-  })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
-    "//widget.daovoice.io/widget/0f81ff2f.js", "daovoice")
-  daovoice('init', {
-    app_id: "abcdefg"
-  }, {
-    launcher: {
-      disableLauncherIcon: true,
-    },
-  });
-  daovoice('update');
-</script>
-
-
-
-<script>
-  (function () {
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    } else {
-      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-  })();
-</script>
-
-
-<script>
-  var _hmt = _hmt || [];
-  (function () {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?4c204d8bc027a0455b5fc642ac334ca8";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-  })();
-</script>
-
-
-
-
-
-
-
-
-
-
 </html>
